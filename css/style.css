@@ -12,7 +12,6 @@ body
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /*background-color: #000; /* Color de respaldo si el fondo no carga */
     overflow: hidden;
 }
   
@@ -20,7 +19,7 @@ body
 .crash 
 {
     width: 100%;
-    height: 705px;
+    height: 100vh;
     background: url(../img/bg-horizontal.png) no-repeat center center;
     background-size: cover;
     position: relative;
@@ -41,7 +40,7 @@ body
   /* Responsividad para iPhone 15 */
 @media screen and (max-width: 390px) 
 {
-    .background 
+    .crash
     {
       width: 390px; /* Ancho de iPhone 15 */
       height: 844px; /* Alto de iPhone 15 */
