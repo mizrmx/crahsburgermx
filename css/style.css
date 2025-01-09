@@ -26,15 +26,18 @@ body
 }
 
   /* Video encima del fondo */
+
+.crash-video
+{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 500px;
+}
+
 .video-overlay 
 {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
 }
   
   /* Responsividad para iPhone 15 */
@@ -45,5 +48,10 @@ body
       width: 390px; /* Ancho de iPhone 15 */
       height: 844px; /* Alto de iPhone 15 */
     }
+
+    .crash-video 
+    {
+        width: 100%;
+        left: 0px;
+    }
 }
-  
