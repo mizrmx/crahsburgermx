@@ -68,7 +68,7 @@ body
 }
 
 
-/*@media screen and (max-width: 390px) 
+@media screen and (max-width: 390px) 
 {
     .crash
     {
@@ -86,4 +86,4 @@ body
     {
       height: 100%;
     }
-}*/
+}
